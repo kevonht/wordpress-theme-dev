@@ -1,0 +1,123 @@
+[01-Jan-2023 21:19:49 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:19:50 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:21:13 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:21:13 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:21:19 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:21:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 372
+[01-Jan-2023 21:21:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 373
+[01-Jan-2023 21:21:23 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:21:23 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:22:19 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:23:07 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:23:08 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:23:10 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:23:10 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 21:29:16 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "(" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 12
+[01-Jan-2023 21:33:18 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 14
+[01-Jan-2023 21:39:21 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 14
+[01-Jan-2023 21:40:18 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 14
+[01-Jan-2023 21:42:23 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 14
+[01-Jan-2023 21:44:24 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 14
+[01-Jan-2023 21:46:25 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 14
+[01-Jan-2023 21:48:26 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 15
+[01-Jan-2023 21:59:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueque_style() in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php:16
+Stack trace:
+#0 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(308): assets('')
+#1 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\header.php(7): wp_head()
+#9 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Humphr...')
+#10 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Humphr...', true, Array)
+#11 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\index.php(1): get_header()
+#13 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Humphr...')
+#14 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Humphr...')
+#15 C:\Users\Humphrey\Local Sites\platzigift\app\public\index.php(17): require('C:\\Users\\Humphr...')
+#16 {main}
+  thrown in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 16
+[01-Jan-2023 22:00:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueque_style() in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php:16
+Stack trace:
+#0 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(308): assets('')
+#1 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\header.php(7): wp_head()
+#9 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Humphr...')
+#10 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Humphr...', true, Array)
+#11 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\index.php(1): get_header()
+#13 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Humphr...')
+#14 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Humphr...')
+#15 C:\Users\Humphrey\Local Sites\platzigift\app\public\index.php(17): require('C:\\Users\\Humphr...')
+#16 {main}
+  thrown in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 16
+[01-Jan-2023 22:00:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueque_style() in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php:16
+Stack trace:
+#0 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(308): assets('')
+#1 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\header.php(7): wp_head()
+#9 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Humphr...')
+#10 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Humphr...', true, Array)
+#11 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\index.php(1): get_header()
+#13 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Humphr...')
+#14 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Humphr...')
+#15 C:\Users\Humphrey\Local Sites\platzigift\app\public\index.php(17): require('C:\\Users\\Humphr...')
+#16 {main}
+  thrown in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 16
+[01-Jan-2023 22:04:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueque_style() in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php:16
+Stack trace:
+#0 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(308): assets('')
+#1 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\header.php(7): wp_head()
+#9 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Humphr...')
+#10 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Humphr...', true, Array)
+#11 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\index.php(1): get_header()
+#13 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Humphr...')
+#14 C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Humphr...')
+#15 C:\Users\Humphrey\Local Sites\platzigift\app\public\index.php(17): require('C:\\Users\\Humphr...')
+#16 {main}
+  thrown in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 16
+[01-Jan-2023 22:25:51 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 21
+[01-Jan-2023 22:25:51 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 21
+[01-Jan-2023 22:42:52 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 23
+[01-Jan-2023 22:42:52 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 23
+[01-Jan-2023 22:56:00 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 9
+[01-Jan-2023 23:04:17 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "container_class", expecting ")" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\header.php on line 22
+[16-Jan-2023 20:56:45 UTC] PHP Parse error:  syntax error, unexpected identifier "sidebar" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 34
+[16-Jan-2023 20:56:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 372
+[16-Jan-2023 20:56:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 373
+[16-Jan-2023 20:57:07 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 46
+[16-Jan-2023 20:57:07 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 46
+[16-Jan-2023 20:57:11 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 46
+[16-Jan-2023 20:57:11 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 46
+[16-Jan-2023 20:57:26 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 46
+[16-Jan-2023 20:57:26 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 46
+[16-Jan-2023 21:54:01 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\front-page.php on line 8
+[17-Jan-2023 01:09:13 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 53
+[17-Jan-2023 01:13:15 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\themes\platzigifts\functions.php on line 55
+[17-Jan-2023 02:35:35 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\plugins\modo-oscuro\plugin-modo-oscuro.php on line 18
+[17-Jan-2023 02:35:36 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\plugins\modo-oscuro\plugin-modo-oscuro.php on line 18
+[17-Jan-2023 02:35:36 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Humphrey\Local Sites\platzigift\app\public\wp-content\plugins\modo-oscuro\plugin-modo-oscuro.php on line 18
