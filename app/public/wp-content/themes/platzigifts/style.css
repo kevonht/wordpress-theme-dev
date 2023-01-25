@@ -23,3 +23,11 @@ footer p{margin:0;color:#fff}
 .lista-productos h2{font-weight:900}
 .lista-productos h4{font-weight:400}
 .lista-productos h4 a{color:#000}
+.enlace_productos{
+    color: #000;
+    text-decoration: none;
+}
+.enlace_productos:hover{
+    color: #000;
+    text-decoration: underline;
+}

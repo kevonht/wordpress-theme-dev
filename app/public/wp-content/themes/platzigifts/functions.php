@@ -71,5 +71,21 @@ function sidebar(){
         register_post_type('producto', $args);
 
     }
-
     add_action('init', 'productos_type');
+
+    function pgRegisterTax(){
+        $args = array(
+            'hierarchical' => true,
+            'labels' => array(
+                'name' => 'Categorias de Productos',
+                'singular_name' => 'Categoria de Productos'
+            ),
+            'show_in_nav_menu' => true,
+            'show_admin_column' => true,
+            'rewrite' => array( 'slug' => 'categoria-productos' )
+        );
+
+        register_taxonomy('categoria-productos', array('producto'), $args );
+    }
+
+    add_action('init', 'pgRegisterTax');
