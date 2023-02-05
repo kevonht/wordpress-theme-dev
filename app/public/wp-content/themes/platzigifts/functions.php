@@ -27,7 +27,8 @@ function assets(){
     wp_enqueue_script('custom',get_template_directory_uri().'/assets/js/custom.js','','1.0',true);
     wp_enqueue_script('jquery');
     wp_localize_script( 'custom', 'pg', array(
-        'ajaxurl' => admin_url('admin-ajax.php')
+        'ajaxurl' => admin_url('admin-ajax.php'),
+        'apiurl' => home_url( 'wp-json/pg/v1/')
     ) );
 
 }
@@ -117,6 +118,7 @@ function sidebar(){
         }
 
         $productos = new Wp_Query($args);
+
         if($productos->have_posts()){
             $return =array();
             while($productos->have_posts( )){
@@ -130,6 +132,46 @@ function sidebar(){
             }
             wp_send_json( $return );
         }
-        
+       
     }
 
+add_action( 'rest_api_init', 'novedadesAPI');
+function novedadesAPI(){
+    register_rest_route( 
+        'pg/v1', 
+        'novedades/(?P<cantidad>\d+)',
+        array(
+            'methods' => 'GET',
+            'callback' =>  'pedidoNovedades'
+            )
+        
+        );
+}
+
+function pedidoNovedades($data){
+
+    $args = array(
+
+        'post_type' => 'post',
+        'post_per_page' => $data['cantidad  '],
+        'order' => 'ASC',
+        'orderby' => 'title',
+        
+    );
+
+    $novedades = new Wp_Query($args);
+    
+    if($novedades->have_posts()){
+        $return =array();
+        while($novedades->have_posts( )){
+            $novedades->the_post();
+            $return[] = array(
+                'imagen'=>get_the_post_thumbnail( get_the_id(), 'large'),
+                'link' => get_the_permalink( ),
+                'titulo' => get_the_title()
+            );
+
+        }
+        return $return;
+    }
+}
